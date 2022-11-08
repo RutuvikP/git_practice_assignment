@@ -1,14 +1,14 @@
-function primechecker(a){
-  let count=0;
-  for(i=1;i<=a;i++){
-    if(a%i==0){
-      count++;
+function primechecker(number){
+  let factor=0;
+  for(i=1;i<=number;i++){
+    if(number%i==0){
+      factor++;
     }
   }
-  if(count==2){
-    console.log(a,"is a Prime Number");
+  if(factor==2){
+    console.log(number,"is a Prime Number");
   } else {
-    console.log(a,"is not a prime number")
+    console.log(number,"is not a prime number")
   }
 }
 
